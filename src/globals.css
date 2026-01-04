@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* In Tailwind v4, we define theme variables directly in the CSS 
+  using the @theme block. 
+*/
+@theme {
+  /* This creates bg-primary, text-primary, border-primary, etc. */
+  --color-primary: #009c41;
+  
+  /* This creates bg-primary-dark, text-primary-dark, etc. */
+  --color-primary-dark: #007d34;
+}
