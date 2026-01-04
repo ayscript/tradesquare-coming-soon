@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
+import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 import { format, parseISO } from 'date-fns';
 import { Lock, LogOut, Users, Loader2, AlertCircle } from 'lucide-react';
 
