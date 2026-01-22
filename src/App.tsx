@@ -119,10 +119,13 @@ export default function TradeSquareFinal() {
              style={{ backgroundColor: '#0F172A' }}>
         <div className="relative z-10">
           <div className="flex items-center gap-3 mb-12">
-            <div className="w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg" 
-                 style={{ backgroundColor: '#16A34A' }}>
+            {/* <div className="w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg" 
+                 style={{ backgroundColor: '#fff' }}>
               <ShoppingBag size={24} />
-            </div>
+            </div> */}
+            {/* <div className='w-16 h-16 bg-white'> */}
+              <img src="/logo.png" className='w-10' alt="Tradesquare" />
+            {/* </div> */}
             <span className="text-2xl font-bold tracking-tight">TradeSquare</span>
           </div>
           <h2 className="text-4xl font-extrabold leading-tight mb-6">
