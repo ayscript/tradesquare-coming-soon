@@ -199,10 +199,6 @@ export default function TradeSquareFinal() {
 
         <footer className="mt-auto pt-12 flex justify-between items-center border-t" style={{ borderColor: '#E5E7EB' }}>
           <p className="text-xs font-semibold" style={{ color: '#6B7280' }}>&copy; 2026 TRADESQUARE NOVA</p>
-          <div className="flex gap-4">
-             <span className="text-xs font-bold cursor-pointer" style={{ color: '#0F172A' }}>Privacy</span>
-             <span className="text-xs font-bold cursor-pointer" style={{ color: '#0F172A' }}>Campus Terms</span>
-          </div>
         </footer>
       </main>
     </div>
