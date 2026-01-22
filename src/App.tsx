@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ShoppingBag, ArrowRight, AlertCircle, Zap, ShieldCheck, Loader2, X, Heart } from 'lucide-react';
+import { ArrowRight, AlertCircle, Zap, ShieldCheck, Loader2, X, Heart } from 'lucide-react';
 
 const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL, 
@@ -48,7 +48,7 @@ export default function TradeSquareFinal() {
       {/* Dynamic Success/Info Modal */}
       <AnimatePresence>
         {(status === 'success' || status === 'already_joined') && (
-          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="fixed inset-0 z-100 flex items-center justify-center p-4">
             <motion.div 
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
               onClick={closeModal}
